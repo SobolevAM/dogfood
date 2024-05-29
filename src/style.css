@@ -25,3 +25,12 @@ a {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
+
+header .logo {
+    height: 50px;
+    display: flex;
+}
+
+.logo img {
+    height: 100%;
+}
