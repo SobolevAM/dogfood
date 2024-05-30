@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Card from "./components/Card";
 import Header from "./components/Header";
 import data from "./assets/data.json";
+import Footer from "./components/Footer"
 
 const App = () => {
     const [goods, setGoods] = useState(data);
@@ -17,6 +18,7 @@ const App = () => {
                     price={d.price}
                 />)}
             </div>
+            <Footer/>
         </div>
     )
     

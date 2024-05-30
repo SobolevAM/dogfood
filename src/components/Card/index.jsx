@@ -10,7 +10,7 @@ const Card = ({text, price, img}) => {
             <div className="card__img" style={imgstyle}></div>
             <div className="card__price">{price}</div>
             <div className="card__text">{text}</div>
-            <button className="btn">Вкорзну</button>
+            <button className="btn">В корзну</button>
         </div>
     )
 }
